@@ -1,0 +1,26 @@
+.francis_spaight_h1 {
+	font-size: 200%;
+	font-weight: 700;
+	text-align: center;
+}
+
+.francis_spaight_author {
+	font-size: 120%;
+	font-weight: 700;
+	text-align: center;
+}
+
+.francis_spaight_based {
+	font-size: 75%;
+	text-align: center;
+}
+
+.francis_spaight_note {
+	font-size: 90%;
+	text-align: left;
+}
+
+.francis_spaight_right {
+	font-size: 80%;
+	text-align: right;
+}
