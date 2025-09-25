@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
+	<story>
+		<identification>
+			<ifid>526F46C4-C9EB-44D5-86F5-CD642E4816F6</ifid>
+			<format>urqw</format>
+		</identification>
+		<bibliographic>
+			<title>«Френсис Спейт»</title>
+			<author>Никита Цейковец</author>
+			<language>ru</language>
+			<firstpublished>2019-07-08</firstpublished>
+			<genre>Историческое</genre>
+			<group>URQ</group>
+			<description>Ваш корабль встретил в открытом море гонимое волнами и ветром потрёпанное судно с оборванными парусами и сломанными мачтами. С полузатопленной посудины, чудом пережившей ужасный шторм, вы сняли уцелевший экипаж, которому пришлось прибегнуть к крайней мере по морскому обычаю. Однако от одного из спасённых вы узнаёте, что морской обычай, возможно, оказался нарушен, и теперь вам предстоит решить, действительно ли они невиновны.<br/>По мотивам одноимённого рассказа Джека Лондона.</description>
+		</bibliographic>
+		<contacts>
+			<url>https://urqw.github.io/UrqW/#francis_spaight</url>
+			<authoremail>tseikovets@rambler.ru</authoremail>
+		</contacts>
+		<colophon>
+			<generator>UrqW Game Template</generator>
+			<originated>2025-09-24</originated>
+		</colophon>
+	</story>
+</ifindex>
