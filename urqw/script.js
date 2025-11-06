@@ -1,16 +1,17 @@
-/**
- * Copyright (C) 2019, 2025 Nikita Tseykovets <tseikovets@rambler.ru>
- * SPDX-License-Identifier: GPL-2.0-or-later
- */
-
 // Hide unnecessary UI elements
 $('#mute').hide();
 $('.navbar-right').hide();
 
-// Save link to original function from UrqW (/js/Client.js)
-var drawButtonsOriginal = Client.prototype.drawButtons;
+/**
+ * Shuffle Buttons - plugin for UrqW <https://github.com/urqw/shuffle_buttons>
+ * Copyright (C) 2019, 2025 Nikita Tseykovets <tseikovets@rambler.ru>
+ * SPDX-License-Identifier: GPL-2.0-or-later
+ */
 
-// Rewrite original function for drawing buttons
+// Save link to original function
+const drawButtonsOriginal = Client.prototype.drawButtons;
+
+// Override original function
 Client.prototype.drawButtons = function() {
 	// Shuffle buttons
 	GlobalPlayer.buttons = shuffle(GlobalPlayer.buttons);
@@ -20,7 +21,7 @@ Client.prototype.drawButtons = function() {
 
 // Function to shuffle array
 function shuffle(arr) {
-	var j, temp;
+	let j, temp;
 	for(var i = arr.length - 1; i > 0; i--) {
 		j = Math.floor(Math.random()*(i + 1));
 		temp = arr[j];
