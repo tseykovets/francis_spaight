@@ -4,7 +4,7 @@ Interactive story "Francis Spaight" (Russian: "Френсис Спейт") by Ni
 
 The story is in Russian and developed for [UrqW](https://github.com/urqw/UrqW) text-based game engine.
 
-This repository contains the source code and other resources of the story. The story is available for launch in the [UrqW engine online catalog](https://urqw.github.io/UrqW/#francis_spaight).
+This repository contains the source code and other resources of the story. The story is available for launch in the [UrqW engine online catalog](https://urqw.github.io/UrqW/?id=francis_spaight).
 
 The story was first published on July 8, 2019.
 
